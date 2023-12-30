@@ -7,7 +7,7 @@ from langchain.chains import RetrievalQA
 import os
 
 from dotenv import load_dotenv
-load_dotenv()  # take environment variables from .env (especially openai api key)
+load_dotenv(override=True)  # take environment variables from .env (especially openai api key)
 
 # Create Google Palm LLM model
 llm = OpenAI(temperature=0.1)
