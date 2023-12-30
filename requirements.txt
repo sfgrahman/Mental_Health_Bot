@@ -3,3 +3,5 @@ openai
 streamlit
 python-dotenv
 huggingface_hub
+InstructorEmbedding
+sentence_transformers
